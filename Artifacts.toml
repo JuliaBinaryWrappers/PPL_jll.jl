@@ -1,252 +1,236 @@
 [[PPL]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "07f310720c174a4c3940c200b53d10234c236b96"
-libc = "musl"
-os = "linux"
-
-    [[PPL.download]]
-    sha256 = "38a03b0f0819e1f33e00a8f2866412d3054e4cb2145e3937dab4846bfd333508"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.x86_64-linux-musl-cxx11.tar.gz"
-[[PPL]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "fd416366a7f7632d74b7a5aa1548f7bbefb15e18"
-libc = "musl"
-os = "linux"
-
-    [[PPL.download]]
-    sha256 = "ed7fd98ac3acc9532e5a87e22d8ab791aa1a23c6066c3acc02dad7e68e98c1ce"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[PPL]]
-arch = "i686"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "d9e64f8458af3e0b94f046f6fcdf0c85a35f25b2"
+git-tree-sha1 = "656c1fe5859a38b5f697a7b109a7be1a264b6228"
 libc = "glibc"
 os = "linux"
 
     [[PPL.download]]
-    sha256 = "a0c121abc0434f542c65dd87d2330c7a2aacd5722e5154191cdfc606cff26e58"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "e020f60e014501840222ffbf8358aeaaa53ccf77999e13454754095d570515f6"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.aarch64-linux-gnu-cxx03.tar.gz"
+[[PPL]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1920029c7c6602cb882d2e875b7c2fda83ec7772"
+libc = "glibc"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "96a85303e72c391642196a29467025de8d7c681dfba2a6bcc006571412e6c03a"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[PPL]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "fc9b937d870cbfd2ed14625e7fb8fda7af07a7a1"
+libc = "musl"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "d51d43136ec8ef734fab90caedd8e4cbe683aa23d9d199bbaa750a5757ad946c"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.aarch64-linux-musl-cxx03.tar.gz"
+[[PPL]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6b7da1fd67fb91d4fd1fdea559d945057922420a"
+libc = "musl"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "de696474fbf38a5783a6347fb6bf2d747fe00d17bdbe22b7e0ade4136a8a16d5"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.aarch64-linux-musl-cxx11.tar.gz"
 [[PPL]]
 arch = "armv7l"
+call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ff8997f3745d1aa8346ee68c3be2aa063f2e5b21"
+git-tree-sha1 = "ddc0d36a8473c0ef9a2c5ea23f660bd3d60c8354"
+libc = "glibc"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "b7894e64654bf94888855a1248b5137eb010c688027a52630a2ce8b8e5c5bef8"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[PPL]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "122f86ba842dce1d18ebc9c584805a73c56b7de9"
+libc = "glibc"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "7fa951e5f27b8d1fe119458585fdfd8d59c5e2150f40643fac72f6786c574402"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[PPL]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "89ead612c54eccc0072dc98539acf300c2b21a68"
 libc = "musl"
 os = "linux"
 
     [[PPL.download]]
-    sha256 = "cff146ba347de9f2a6057cd31333b1af2edfa0435b57a2218bf429d13e2410b8"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.armv7l-linux-musleabihf-cxx03.tar.gz"
+    sha256 = "08f569878a168f4e6c49379278dfad5d975c7a506879ea11b3a707cdeddf4a15"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[PPL]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "dfc73592592985f57b0927b3ed7b5e3cda7f4f3b"
-os = "macos"
-
-    [[PPL.download]]
-    sha256 = "b7fbe0ba6a6fe5d41c8a5dbbf2cb69b7d8e0061636c173dbb579bc066373ab62"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.x86_64-apple-darwin14-cxx03.tar.gz"
-[[PPL]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "61c19dd5a52dcb94324b31b7e815f87b58f7c7b6"
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "645c554b2ac9ec581ca2c0dce7e7da5ee1f31323"
 libc = "musl"
 os = "linux"
 
     [[PPL.download]]
-    sha256 = "4d14cb5e50f4b7acf9b7c430ea80dd4a187c0701a7d6450176fd19862085bd93"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "fb9bf8015f1d60b57ba152fa4db2ec44fe9a4d0a68e840c49245119841b539e2"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[PPL]]
-arch = "x86_64"
+arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "0a4e41691c2c70e6315af5bfac9bb3fa9d1cb308"
+git-tree-sha1 = "0b5768531ac5155c82c931d47fa52da20398ba3b"
+libc = "glibc"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "8bbc15258a07fb51138a17feda44047776622fb1592e444993f7742efd3d53ba"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.i686-linux-gnu-cxx03.tar.gz"
+[[PPL]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "347699ebf555d4804c5a122b91dc639e46436cc1"
+libc = "glibc"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "008e7e54a036cee1e8ea621dd3bd265c7c93c7f3561a17370ce8dc7c372d0abb"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.i686-linux-gnu-cxx11.tar.gz"
+[[PPL]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ac0b8d50d5e52ce638b253c2e87facd0413efde4"
+libc = "musl"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "9fec1e1b02a3c70ebfe3682b50f87eeaa6f3be37a232cdc5ba36b013cfe9d243"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.i686-linux-musl-cxx03.tar.gz"
+[[PPL]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c3ff8da27241114b713fe8f0323cfe7e9670e154"
+libc = "musl"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "f60b8a53fa610eb52682e385193969db0d4f65928245ef192b93ecaab2283449"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.i686-linux-musl-cxx11.tar.gz"
+[[PPL]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "9bdb706a1e41841a187a5912d5f91458f9fe6a26"
 os = "windows"
 
     [[PPL.download]]
-    sha256 = "748f1d63e71495b028439f9f8867a33f83a986654cfe405e7e8f2e6a92acedc0"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.x86_64-w64-mingw32-cxx03.tar.gz"
-[[PPL]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "3324061b4f0174a76d64c2c2fbc62b623c4c0972"
-libc = "glibc"
-os = "linux"
-
-    [[PPL.download]]
-    sha256 = "e82a4a553ffb093ef4fc6eba97a6c28bb37efd0306f6f833c23f3ffd802d5711"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.aarch64-linux-gnu-cxx11.tar.gz"
-[[PPL]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "e9a594f294b0e85661564dcc849a7fbd36eea48e"
-libc = "musl"
-os = "linux"
-
-    [[PPL.download]]
-    sha256 = "0a4824eaf9c37e276f905fd47274bb6382b523aaec765247567e9d045c6fd3ab"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.aarch64-linux-musl-cxx11.tar.gz"
-[[PPL]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "0d82874a132782ec82949ca00bf8e0fe4146a7bd"
-os = "macos"
-
-    [[PPL.download]]
-    sha256 = "acafe32b91f3627b5c8e9a13f8c2634f0ae6236ccc9b0324647434a760b4f75f"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.x86_64-apple-darwin14-cxx11.tar.gz"
-[[PPL]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "3e218ecfaa574f9ab16e26f7e4b0acea766a4d70"
-libc = "glibc"
-os = "linux"
-
-    [[PPL.download]]
-    sha256 = "c66960787deb7af99bd7a6f41de6d3456c0fe1d42620ce8ef642081bd9f4206f"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[PPL]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2c4bffed01efe86778a6e4831757393e7cad2913"
-libc = "glibc"
-os = "linux"
-
-    [[PPL.download]]
-    sha256 = "45e43c14f936256e23f755694aaaba0fb7e5380c8ce82b293dc5c4cfb3358cc4"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.aarch64-linux-gnu-cxx03.tar.gz"
-[[PPL]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "0ec0035b880dd7aa9143f933f598d510b03073ff"
-libc = "glibc"
-os = "linux"
-
-    [[PPL.download]]
-    sha256 = "2dbb3763fe2849a2479da8de40184eeb7734166be2ac2644a24f882ef3417076"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.x86_64-linux-gnu-cxx11.tar.gz"
-[[PPL]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "713b86d29a7e7ee61a31a2b549295a2f0b046510"
-os = "freebsd"
-
-    [[PPL.download]]
-    sha256 = "9e0ea95b871be8f639fb1df90bc8ae097e0ef29a5de72e9fe9ef28bd3fc7c80e"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
-[[PPL]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2340bb4f92f1adda68d3a882400ce1493f6f86e4"
-libc = "musl"
-os = "linux"
-
-    [[PPL.download]]
-    sha256 = "df3c0520d6a7207c20aa98a58fafea7b1238a196a46ed1524c2d5fb2a4809301"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "a5d9d03417944e6c192bdd17d63dcd51fbc02764d93d0013dd3c3a8a2a050275"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.i686-w64-mingw32-cxx03.tar.gz"
 [[PPL]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b3f0defb5f439a8b698cc4722f1ba85d44640b8c"
-libc = "glibc"
-os = "linux"
+git-tree-sha1 = "ee22f911c5c117fe3f0587b93a1069b6566128b5"
+os = "windows"
 
     [[PPL.download]]
-    sha256 = "a5ee312da4508e5c408e66586b6c2f2a350bd71d316e370400a83f86e29746b3"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.i686-linux-gnu-cxx11.tar.gz"
-[[PPL]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "5a5af38cdb03faf37b1c0ca99f0e2c6ee5ff9633"
-libc = "musl"
-os = "linux"
-
-    [[PPL.download]]
-    sha256 = "ae9aafe8c1ce9803b3dc3a2627013715a41388a6d356648f77696eed8d2b38cc"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "4bb037db9ff7ff3524d38a3e731240e93ecccbca2ed971fcb5be01d9cb974047"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.i686-w64-mingw32-cxx11.tar.gz"
 [[PPL]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "3a3d8635908beea4d43d558f90134d2fcf927b2e"
+git-tree-sha1 = "b831852c778ff5b6bad6ada590d58ea44e46c798"
 libc = "glibc"
 os = "linux"
 
     [[PPL.download]]
-    sha256 = "22ada54075ce33517b68727a4133a1af92b51e0c2fdb1f437a03c82b8074d79a"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "6abab3d685fc4ebf249f6fe71817ed0c8b70c87c57cd098c3ff3d385a890c005"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[PPL]]
-arch = "aarch64"
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ffa02b597c54f7a6516ba3b2fe9773c4c05abd42"
+libc = "glibc"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "fd3d5583b2b99e9c7eecc171577bb848ff912fbe9e73076263c1ff1fc46fa4ca"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[PPL]]
+arch = "x86_64"
+git-tree-sha1 = "9ed2a49f8990bdc4c4286f6c9719ad66e5ba08a4"
+os = "macos"
+
+    [[PPL.download]]
+    sha256 = "9205c24f9984bae0d12c0720a60d0842533887385035022faacedc5c71ded142"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.x86_64-apple-darwin.tar.gz"
+[[PPL]]
+arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "c88b68a317f1447ee70fdc4ebe9753b276c75cfe"
+git-tree-sha1 = "543879eee2dc9aef83685e343145c85493fb3dff"
+libc = "glibc"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "ff86f8eb62de5a7811abc96ce76e2890e7aa592933ba2a85488371773daeb3e6"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.x86_64-linux-gnu-cxx03.tar.gz"
+[[PPL]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f2662cbb8a75e1b8f1d05e87781a8ca83702f5ed"
+libc = "glibc"
+os = "linux"
+
+    [[PPL.download]]
+    sha256 = "c3d7f067677903ff4e976e2aab72ac0756f629f097c1f3b7205dc73f477b3d11"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[PPL]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "ef6d3523d23f689404efb0dade1abbf1f448f066"
 libc = "musl"
 os = "linux"
 
     [[PPL.download]]
-    sha256 = "59ceb9c858100a016e967872a07c18695759b769c07d2dc0012984c75b4b00d8"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.aarch64-linux-musl-cxx03.tar.gz"
+    sha256 = "f00dd0ee618b63a3d2a631444efd483c16388677f02a5828eba6a3dd7ddaf2b0"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.x86_64-linux-musl-cxx03.tar.gz"
 [[PPL]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "649d8b3c9c19ec3cb835e3bc95679e7f50e1b719"
-os = "windows"
-
-    [[PPL.download]]
-    sha256 = "5f04154ad21d7293e5628ce270ce433b63de40e485e3bf8daf32d70629226fe6"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.x86_64-w64-mingw32-cxx11.tar.gz"
-[[PPL]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "5926c4c82d405482da856bd241061382a55a1610"
-libc = "glibc"
+git-tree-sha1 = "0479600206d3d0c3816fbfa3b66ef0951c6244cb"
+libc = "musl"
 os = "linux"
 
     [[PPL.download]]
-    sha256 = "f319b069b7a03aa321a983de04b310d39c08cd74a690fcb3dac62eb6f3c5a272"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.x86_64-linux-gnu-cxx03.tar.gz"
-[[PPL]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d981cc0e3fb362a255de1c4c4c75ff0c64dcee62"
-libc = "glibc"
-os = "linux"
-
-    [[PPL.download]]
-    sha256 = "e0e573a791e250b185c0bae6794ce182857db4fb19890dea9a95b5beb2512496"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "3e24082ebd27dfb7a9b0232436210058a39479aa627c904bd3d8d5d2d1c03b83"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.x86_64-linux-musl-cxx11.tar.gz"
 [[PPL]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "1280947c79d35c410a7e3e073eca77ced5c3c878"
+git-tree-sha1 = "5332fc0b5757acb4d93172e2cac79105b10e59c9"
 os = "freebsd"
 
     [[PPL.download]]
-    sha256 = "2074c132f686e9b2da968bfc4ee0571f33296a6e58a3e581744112a1a55418e4"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
+    sha256 = "c4c4cc89431e969f82825fcfd92dfdc7b333811a94fb53efecd853d8b8bf441f"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.x86_64-unknown-freebsd.tar.gz"
 [[PPL]]
-arch = "i686"
+arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "1221a1c58f8fdb6bf897df08bdedb7fed8984aec"
+git-tree-sha1 = "2071bbcd72277b8a2c42c93380d6b57ad90ad549"
 os = "windows"
 
     [[PPL.download]]
-    sha256 = "8c90813740322d25ea8b2427672f8b5f6a720af60421b87fd9a723726049ddff"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.i686-w64-mingw32-cxx03.tar.gz"
+    sha256 = "5a7d3da478b7c50f62d2ee05c5a3d7b52fe898a1cc8f243c2c8bd2b2a4c7425e"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.x86_64-w64-mingw32-cxx03.tar.gz"
 [[PPL]]
-arch = "i686"
+arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f3c2990789e990a632af10b997706be723780cb4"
+git-tree-sha1 = "5180a103c60f1dbb40e68d31ef4ec85cdc256f76"
 os = "windows"
 
     [[PPL.download]]
-    sha256 = "de7201c72653dbae050a6e05c302078f4c203f1ca7b6fc1948c1d308128ccbd6"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.i686-w64-mingw32-cxx11.tar.gz"
-[[PPL]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "27436856fca1409ddbeeb141437cea6eb836da48"
-libc = "glibc"
-os = "linux"
-
-    [[PPL.download]]
-    sha256 = "f53d603734f7170e13e74bf0237c92f8a0fe32b2cb81fd8d0ac4c9fc9b066b94"
-    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+0/PPL.v1.2.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "b3ac5c7ca255eaeb86af44903137a63bb048d22d4920f47fd37f96ae7c908d22"
+    url = "https://github.com/JuliaBinaryWrappers/PPL_jll.jl/releases/download/PPL-v1.2.0+1/PPL.v1.2.0.x86_64-w64-mingw32-cxx11.tar.gz"
